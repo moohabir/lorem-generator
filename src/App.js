@@ -8,7 +8,7 @@ export default function App() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    let amount = parseInt(count);
+    let amount = parseInt(count, 0);
     if (amount <= 0) {
       amount = 1;
     }
